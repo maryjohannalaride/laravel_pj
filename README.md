@@ -2,7 +2,7 @@
 
 Project Code: WST21-PM-2026-SF
 
-Student Name: MARY JOHANNA LARIDE
+Student Name: MARY JOHANNA C. LARIDE
 
 Course & Year: BSIT-2 SEC-1
 
