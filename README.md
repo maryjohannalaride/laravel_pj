@@ -53,13 +53,72 @@ Database Used: MySQL
 ‎The status can be updated directly through the task management interface.
 
 ## Setup
-1. Clone the repo and run `composer install`.
-2. Copy `.env.example` to `.env` and set your database credentials.
-3. Run `php artisan key:generate`.
-4. Run `php artisan migrate`.
-5. Run `php artisan serve` and visit `http://127.0.0.1:8000`.
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/maryjohannalaride/laravel_pj.git
+cd laravel_pj
+```
+
+### 2. Install Dependencies
+
+```bash
+composer install
+```
+
+### 3. Create the Environment File
+
+Copy `.env.example` to `.env` and configure your database credentials.
+
+```bash
+cp .env.example .env
+```
+
+### 4. Configure the Database
+
+Create a MySQL database using phpMyAdmin.
+
+Then open the `.env` file and set:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=task_manager
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Make sure the database name matches the database you created in MySQL.
+
+### 5. Generate the Application Key
+
+```bash
+php artisan key:generate
+```
+
+### 6. Run the Database Migration
+
+```bash
+php artisan migrate
+```
+
+### 7. Start the Laravel Development Server
+
+```bash
+php artisan serve
+```
+
+### 8. Open the Application
+
+Visit:
+
+```text
+http://127.0.0.1:8000
+```
 ## Screenshots
+
 <img width="1904" height="952" alt="image" src="https://github.com/user-attachments/assets/c9511d94-248c-40ed-a240-2c3d6ccdbae0" />
 <img width="1904" height="942" alt="image" src="https://github.com/user-attachments/assets/e4e17919-e9be-487a-ae24-dfde13914ce0" />
 <img width="1903" height="947" alt="image" src="https://github.com/user-attachments/assets/6b76b613-6ea1-4fc5-85b2-756c804c70f6" />
