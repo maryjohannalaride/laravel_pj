@@ -4,7 +4,7 @@ Project Code: WST21-PM-2026-SF
 
 Student Name: MARY JOHANNA C. LARIDE
 
-Course & Year: BSIT-2 SEC-1
+Course & Year: BSIT2 - SEC1
 
 Database Used: MySQL
 
