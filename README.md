@@ -1,5 +1,7 @@
 # Task Manager (Laravel)
 
+‎A lightweight personal task management system built with Laravel and MySQL. The application allows users to create, view, edit, delete, and update the status of tasks through a simple and user-friendly dashboard.
+
 Project Code: WST21-PM-2026-SF
 
 Student Name: MARY JOHANNA C. LARIDE
@@ -8,12 +10,47 @@ Course & Year: BSIT2 - SEC1
 
 Database Used: MySQL
 
+## Overview 
+
+‎This project is a Laravel-based Personal Task Manager developed as a mini project.
+‎
+‎The application follows the Laravel MVC structure:
+‎
+‎Routes → Controller → Model → Database → Blade Views
+‎
+‎Task information is stored in a MySQL database and managed through Laravel's CRUD functionality. The application also includes a separate status update feature for changing tasks between Pending and Completed.
+
 ## Features
+
 - Add Task
-- View Tasks
-- Edit Task
-- Delete Task
-- Update Status
+‎
+‎Create a new task by entering the required task information, including:
+‎
+· ‎Task name
+· ‎Description
+· ‎Status
+· ‎Due date
+‎
+- ‎View Tasks
+‎
+‎Display all saved tasks in the task management dashboard.
+‎
+- ‎Edit Task
+‎
+‎Update the information of an existing task when changes are needed.
+‎
+- ‎Delete Task
+‎
+‎Remove a task from the database.
+‎
+‎Update Status
+‎
+‎Change a task's status between:
+‎
+· ‎Pending
+· ‎Completed
+‎
+‎The status can be updated directly through the task management interface.
 
 ## Setup
 1. Clone the repo and run `composer install`.
