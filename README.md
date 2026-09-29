@@ -43,7 +43,7 @@ Database Used: MySQL
 ‎
 ‎Remove a task from the database.
 ‎
-‎Update Status
+- ‎Update Status
 ‎
 ‎Change a task's status between:
 ‎
